@@ -1,8 +1,6 @@
-numpy
-pandas
-matplotlib
-scikit-learn
-scipy
-seaborn
-umap-learn
-sklearn
+pandas==1.3.3
+sklearn==0.24.2
+matplotlib==3.4.3
+seaborn==0.11.2
+numpy==1.21.2
+umap-learn==0.5.1
