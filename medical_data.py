@@ -87,17 +87,6 @@ new_samples = pd.DataFrame(np.random.randint(0,100,size=(10, 13)), columns=list(
 new_predictions = clf.predict(new_samples)
 print('New predictions:', new_predictions)
 
-# Generate the environment dependencies
-!pip freeze > requirements.txt
-
-# In[ ]:
-
-
-!pip install umap-learn
-
-# In[ ]:
-
-
 # Import necessary libraries
 from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score, roc_curve, roc_auc_score
 from sklearn.inspection import plot_partial_dependence
