@@ -187,8 +187,3 @@ plt.figure()
 plt.scatter(X_lle[:, 0], X_lle[:, 1], c=y)
 plt.title('LLE embedding')
 plt.show()
-
-# In[ ]:
-
-
-!pip freeze > requirements.txt
