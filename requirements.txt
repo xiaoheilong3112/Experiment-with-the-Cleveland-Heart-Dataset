@@ -4,3 +4,4 @@ matplotlib==3.4.3
 seaborn==0.11.2
 numpy==1.21.2
 umap-learn==0.5.1
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
